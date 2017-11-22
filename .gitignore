@@ -4,6 +4,7 @@ assets
 vendor
 silverstripe-cache
 .htaccess
+composer.lock
 
 _ss_environment.php
 install.bak.php
