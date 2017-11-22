@@ -1,0 +1,6 @@
+SetEnv HTTP_MOD_REWRITE On
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^(.*)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* framework/main.php?url=%1 [QSA]
