@@ -1,4 +1,3 @@
-SetEnv HTTP_MOD_REWRITE On
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_URI} ^(.*)$
